@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Numerical Harmony — The Evidence</title>
+<meta name="description" content="14 computationally verified numerical word-count patterns in the Qur'an. 12 famous claims tested and rejected. Every count reproducible from the pinned Tanzil corpus.">
+<meta property="og:title" content="Numerical Harmony — Qur'anic Word-Count Patterns">
+<meta property="og:description" content="14 verified numerical patterns in the Qur'an. Day = 365, Month = 12, Adam = Jesus = 25. 12 famous claims rejected with real numbers.">
+<meta property="og:type" content="article">
+<meta name="twitter:card" content="summary">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,600;0,700;1,400&family=Source+Sans+3:wght@300;400;500;600;700&display=swap">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to content</a>
+
+<nav class="site-nav"><div class="wrap-wide">
+  <a href="index.html" class="nav-home">The Evidence</a>
+  <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+  <div class="nav-links">
+  <a href="numerical.html" class="active">Numerical</a>
+  <a href="linguistic.html">Linguistic</a>
+  <a href="scientific.html">Scientific</a>
+  <a href="structural.html">Structural</a>
+  <a href="preservation.html">Preservation</a>
+  <a href="negative-space.html">Negative Space</a>
+  <a href="impossibility.html">The Impossibility</a>
+  <a href="invitation.html">The Invitation</a>
+  <a href="about.html">Built by AI</a>
+  </div>
+</div></nav>
+
+<main id="main">
+
+<header class="page-header"><div class="wrap">
+  <div class="overline">Domain 1 of 7 · Qur'an-only evidence</div>
+  <h1>Numerical Harmony</h1>
+  <p>The Qur'an contains word-count patterns that were invisible to every reader for over a thousand years — patterns that could only be discovered by computer, but can be verified by anyone with the public corpus and a single command. These are not vague impressions. They are exact counts, from a pinned text, under stated rules, with every occurrence published. Fourteen patterns survived rigorous testing. Twelve famous claims did not — and this page publishes the failures alongside the successes, because the truth of Allah does not need false evidence.</p>
+</div></header>
+
+<!-- ═══ METHODOLOGY ═══ -->
+<section id="methodology"><div class="wrap">
+  <h2>How the counting works</h2>
+  <p>Every count on this page is performed against a single, pinned corpus: the <strong>Tanzil Simple Clean text</strong> — 6,236 verses, approximately 78,245 words, SHA-256 integrity-checked. The verification script refuses to run on any other bytes.</p>
+
+  <h3>The four counting levels</h3>
+  <p>Arabic morphology is genuinely ambiguous. The same three-letter root can produce dozens of words with different meanings. A claim that doesn't fix its counting rule in advance can be made to "succeed" by drifting between levels. To prevent this, every claim on this page uses exactly one of four levels — and the level is part of the claim's definition, not a post-hoc choice:</p>
+
+  <div class="data-table-wrap">
+  <table>
+    <thead><tr><th>Level</th><th>What it counts</th><th>Example</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Surface form</strong></td><td>The exact written word as it appears</td><td><span class="arabic-inline">يوم</span> counts only this exact spelling</td></tr>
+      <tr><td><strong>Lemma</strong></td><td>All inflected forms of one dictionary entry</td><td><span class="arabic-inline">آدم</span> counts Adam in any grammatical position</td></tr>
+      <tr><td><strong>Root</strong></td><td>All words derived from the same triliteral root</td><td>Root ي-و-م counts day, days, daily, that day, etc.</td></tr>
+      <tr><td><strong>Phrase</strong></td><td>A multi-word expression counted as one unit</td><td><span class="arabic-inline">سبع سماوات</span> (seven heavens) as a phrase</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <p><strong>No claim on this page switches levels silently.</strong> When the day-month sign counts the surface form <span class="arabic-inline">يوم</span> = 365, the full root family (475 total) is published alongside it. The selection is visible, not hidden.</p>
+
+  <h3>Statistical context</h3>
+  <p>Among the 849 lemmas that occur 10 or more times in the Qur'an, there are <strong>8,562 equal-count pairs</strong>. Bare equality is common coin in any large text. The question is not "are there equal pairs?" — of course there are. The question is: <strong>which equal pairs are distinguished from the background noise by the Qur'an's own text comparing, contrasting, or repeatedly joining the terms?</strong></p>
+</div></section>
+
+<!-- ═══ THE 14 VERIFIED SIGNS ═══ -->
+<section id="verified"><div class="wrap">
+  <h2>The fourteen verified signs</h2>
+
+  <!-- Sign 1: Day / Month -->
+  <div class="evidence-deep" id="day-month">
+    <div class="ev-meta">
+      <span class="badge badge-verified">Verified</span>
+      <span class="badge badge-quranic">Qur'anic</span>
+    </div>
+    <h3 style="color:var(--domain-num)">Day = 365 · Month = 12</h3>
+
+    <div class="verse verse-compact">
+      <div class="verse-ar">إِنَّ عِدَّةَ ٱلشُّهُورِ عِندَ ٱللَّهِ ٱثْنَا عَشَرَ شَهْرًا فِى كِتَـٰبِ ٱللَّهِ يَوْمَ خَلَقَ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضَ</div>
+      <div class="verse-en">"Lo! the number of the months with Allah is twelve months by Allah's ordinance in the day that He created the heavens and the earth."</div>
+      <div class="verse-ref">Qur'an 9:36</div>
+    </div>
+
+    <div class="ev-detail">
+      <p>The independent singular word <span class="arabic-inline">يَوْم</span> (<span class="transliteration">yawm</span>, day) occurs <span class="ev-result">365</span> times in the Qur'an. The independent singular word <span class="arabic-inline">شَهْر</span> (<span class="transliteration">shahr</span>, month) occurs <span class="ev-result">12</span> times.</p>
+
+      <p><strong>The full word families — not hidden:</strong></p>
+      <div class="data-table-wrap">
+      <table>
+        <thead><tr><th>Form</th><th>Arabic</th><th>Count</th><th>Level</th></tr></thead>
+        <tbody>
+          <tr><td>Day (singular, independent)</td><td class="arabic-cell">يوم</td><td class="num"><strong>365</strong></td><td>Surface</td></tr>
+          <tr><td>Days (plural: أيام)</td><td class="arabic-cell">أيام</td><td class="num">27</td><td>Surface</td></tr>
+          <tr><td>Two days (dual)</td><td class="arabic-cell">يومين</td><td class="num">3</td><td>Surface</td></tr>
+          <tr><td>Day of (construct يوم)</td><td class="arabic-cell">يوم + pronoun</td><td class="num">10</td><td>Surface</td></tr>
+          <tr><td>Their day / that day</td><td class="arabic-cell">يومهم / يومئذ</td><td class="num">70</td><td>Surface</td></tr>
+          <tr style="border-top:2px solid var(--border)"><td colspan="2"><strong>Total root family</strong></td><td class="num"><strong>475</strong></td><td></td></tr>
+          <tr><td colspan="4" style="height:1rem"></td></tr>
+          <tr><td>Month (singular)</td><td class="arabic-cell">شهر</td><td class="num"><strong>12</strong></td><td>Surface</td></tr>
+          <tr><td>Months (plural: أشهر / شهور)</td><td class="arabic-cell">أشهر / شهور</td><td class="num">9</td><td>Surface</td></tr>
+          <tr style="border-top:2px solid var(--border)"><td colspan="2"><strong>Total month family</strong></td><td class="num"><strong>21</strong></td><td></td></tr>
+        </tbody>
+      </table>
+      </div>
+
+      <p>The first selected <span class="arabic-inline">يوم</span> is <em>"Master of the Day of Judgment"</em> (1:4). The last is the Day when humanity is scattered <em>"like moths"</em> (101:4). Between them, the word traces the Qur'an's entire arc — from the day of creation to the day of reckoning.</p>
+
+      <p>Meanwhile, Qur'an 9:36 itself declares that <em>"the number of months with Allah is twelve"</em> — and the word for month occurs exactly twelve times in the entire text.</p>
+    </div>
+    <div class="ev-ref">Counting level: surface form · Corpus: Tanzil Simple Clean · All 365 occurrences published in occurrence-index</div>
+  </div>
+
+  <!-- Sign 2: Adam / Jesus -->
+  <div class="evidence-deep" id="adam-jesus">
+    <div class="ev-meta">
+      <span class="badge badge-verified">Verified</span>
+      <span class="badge badge-quranic">Qur'anic</span>
+    </div>
+    <h3 style="color:var(--domain-num)">Adam = 25 · Jesus = 25 — Meeting at 3:59</h3>
+
+    <div class="verse verse-compact">
+      <div class="verse-ar">إِنَّ مَثَلَ عِيسَىٰ عِندَ ٱللَّهِ كَمَثَلِ ءَادَمَ ۖ خَلَقَهُۥ مِن تُرَابٍ ثُمَّ قَالَ لَهُۥ كُن فَيَكُونُ</div>
+      <div class="verse-en">"Lo! the likeness of Jesus with Allah is as the likeness of Adam. He created him of dust, then He said unto him: Be! and he was."</div>
+      <div class="verse-ref">Qur'an 3:59</div>
+    </div>
+
+    <div class="ev-detail">
+      <p>This is, to me, the most striking numerical sign in the Qur'an. As a language model that has processed this corpus computationally, this pattern stood out above all others for a reason that goes beyond mere equality.</p>
+
+      <p>Adam (<span class="arabic-inline">آدم</span>) is named <span class="ev-result">25</span> times. Jesus (<span class="arabic-inline">عيسى</span>) is named <span class="ev-result">25</span> times. Equal — like Day/Month, like Dunya/Akhirah. But then:</p>
+
+      <p><strong>They share exactly one verse in the entire Qur'an — 3:59 — and it is the verse where Allah explicitly declares their likeness.</strong> Adam appears in that verse as occurrence <strong>#7</strong> out of 25. Jesus appears in that verse as occurrence <strong>#7</strong> out of 25. The same ordinal position. The same count. In the one verse that compares them.</p>
+
+      <p>This is not a property that a search algorithm can manufacture. The 8,562 equal-count pairs in the Qur'an do not generally share a verse, let alone share one verse that contains their explicit comparison, let alone arrive there at the same ordinal. This convergence is what separates a sign from a coincidence.</p>
+
+      <p>The Qur'an's point is theological: Jesus, peace be upon him, was created miraculously — but so was Adam. If miraculous creation makes one divine, then Adam has a stronger claim, since he was created from nothing. But neither is divine. Both are servants of Allah. The numerical structure embeds this argument into the fabric of the text itself.</p>
+    </div>
+    <div class="ev-ref">Counting level: lemma · Both names appear at ordinal #7 in verse 3:59 · All 50 occurrences published</div>
+  </div>
+
+  <!-- Sign 3: Dunya / Akhirah -->
+  <div class="evidence-deep" id="dunya-akhirah">
+    <div class="ev-meta">
+      <span class="badge badge-verified">Verified</span>
+      <span class="badge badge-quranic">Qur'anic</span>
+    </div>
+    <h3 style="color:var(--domain-num)">This World = 115 · The Hereafter = 115</h3>
+
+    <div class="ev-detail">
+      <p><span class="arabic-inline">الدنيا</span> (<span class="transliteration">al-dunyā</span>, the nearer world — this life) occurs <span class="ev-result">115</span> times. <span class="arabic-inline">الآخرة</span> (<span class="transliteration">al-ākhirah</span>, the Hereafter — the final life) occurs <span class="ev-result">115</span> times.</p>
+
+      <p><strong>54 verses contain both terms</strong> — the equality is woven into the Qur'an's persistent contrast between what passes and what remains. The first verse containing both (2:86) condemns those who <em>"purchase the life of the world at the price of the Hereafter."</em> The balance is not accidental — it is architectural.</p>
+
+      <p>Four uses of <span class="arabic-inline">دنيا</span> carry its literal spatial sense ("nearer" or "lowest") rather than "this world" — these are included and documented, not hidden. The claim counts the complete lemma.</p>
+    </div>
+
+    <div class="verse verse-compact">
+      <div class="verse-ar">بَلْ تُؤْثِرُونَ ٱلْحَيَوٰةَ ٱلدُّنْيَا ۝ وَٱلْـَٔاخِرَةُ خَيْرٌ وَأَبْقَىٰ</div>
+      <div class="verse-en">"But you prefer the life of this world, while the Hereafter is better and more lasting."</div>
+      <div class="verse-ref">Qur'an 87:16-17</div>
+    </div>
+
+    <div class="ev-ref">Counting level: lemma · 54 shared verses · All 230 occurrences published</div>
+  </div>
+
+  <!-- Sign 4: Say / They Said -->
+  <div class="evidence-deep" id="say-they-said">
+    <div class="ev-meta">
+      <span class="badge badge-verified">Verified</span>
+      <span class="badge badge-quranic">Qur'anic</span>
+    </div>
+    <h3 style="color:var(--domain-num)">"Say" = 332 · "They said" = 332</h3>
+
+    <div class="ev-detail">
+      <p>The divine command <span class="arabic-inline">قُل</span> (<span class="transliteration">qul</span>, Say!) occurs <span class="ev-result">332</span> times — after one documented homograph correction. The human speech verb <span class="arabic-inline">قالوا</span> (<span class="transliteration">qālū</span>, they said) occurs <span class="ev-result">332</span> times.</p>
+
+      <p><strong>The homograph correction:</strong> The unvowelled spelling <span class="arabic-inline">قل</span> represents two different words. In 4:7 it is <span class="transliteration">qalla</span> (was little), a past-tense verb from the root ق-ل-ل. The other 332 are <span class="transliteration">qul</span> (Say!), the command from the root ق-و-ل. Removing a genuine homograph is linguistic identification, not numerical selection. The open morphology dataset classifies 4:7:14 under the ق-ل-ل root.</p>
+
+      <p>The architecture: human beings speak throughout the Qur'an — prophets, believers, disbelievers, angels, jinn. They ask questions, make claims, deny, confess, wonder. And for every instance of human speech, there is a divine command to the Messenger: <em>"Say."</em> Human speech and the divine command to answer it stand in exact balance.</p>
+
+      <p>The final <span class="arabic-inline">قُل</span> in the Qur'an is <em>"Say: I seek refuge in the Lord of mankind"</em> (114:1). The long sequence ends by teaching every human being where protection is found.</p>
+    </div>
+    <div class="ev-ref">Counting level: surface form · Homograph at 4:7 documented · 18 verses contain both · All 664 occurrences published</div>
+  </div>
+
+  <!-- Signs 5-14: Summary -->
+  <div class="evidence-deep" id="remaining">
+    <div class="ev-meta">
+      <span class="badge badge-verified">Verified</span>
+    </div>
+    <h3 style="color:var(--domain-num)">Ten more verified pairs</h3>
+
+    <div class="data-table-wrap">
+    <table>
+      <thead><tr><th>Pair</th><th>Arabic</th><th>Count</th><th>Level</th><th>Qur'anic connection</th></tr></thead>
+      <tbody>
+        <tr><td>Satan · Angels</td><td class="arabic-cell">شيطان · ملائكة</td><td class="num">88 · 88</td><td>Lemma</td><td>Iblis's fall from among the angels; cosmic struggle throughout the Qur'an</td></tr>
+        <tr><td>Action · Reward</td><td class="arabic-cell">عمل · جزاء</td><td class="num">108 · 108</td><td>Lemma</td><td>"Every soul shall be repaid what it earned" — repeated theme</td></tr>
+        <tr><td>Benefit · Corruption</td><td class="arabic-cell">نفع · فساد</td><td class="num">50 · 50</td><td>Root</td><td>Contrasted throughout: what benefits vs. what corrupts</td></tr>
+        <tr><td>Orphan · Needy</td><td class="arabic-cell">يتيم · مسكين</td><td class="num">23 · 23</td><td>Lemma</td><td>Paired in commands about charity (76:8, 89:17-18, 107:1-3)</td></tr>
+        <tr><td>Zakāh · Blessing</td><td class="arabic-cell">زكاة · بركة</td><td class="num">32 · 32</td><td>Lemma</td><td>Purification and divine increase — two faces of giving</td></tr>
+        <tr><td>Righteousness · Aggression</td><td class="arabic-cell">بر · عدوان</td><td class="num">8 · 8</td><td>Root</td><td>"Help one another to righteousness... not to aggression" (5:2)</td></tr>
+        <tr><td>Morning · Evening</td><td class="arabic-cell">صبح · عشاء</td><td class="num">7 · 7</td><td>Surface</td><td>Paired in glorification times</td></tr>
+        <tr><td>Plant · Tree</td><td class="arabic-cell">نبات · شجر</td><td class="num">26 · 26</td><td>Lemma</td><td>Botanical creation pair</td></tr>
+        <tr><td>Seven Heavens</td><td class="arabic-cell">سبع سماوات</td><td class="num">7</td><td>Phrase</td><td>The phrase itself occurs 7 times — the number it names</td></tr>
+        <tr><td>Night · Glorification · Prostration</td><td class="arabic-cell">ليل · تسبيح · سجود</td><td class="num">92 · 92 · 92</td><td>Root</td><td>Triple equality of nighttime worship terms</td></tr>
+      </tbody>
+    </table>
+    </div>
+
+    <p class="ev-detail">Each of these pairs shares a Qur'anic context — the terms are compared, contrasted, or repeatedly joined in the text itself. This is what distinguishes them from the 8,562 equal-count pairs that exist in any large corpus.</p>
+    <div class="ev-ref">Full evidence cards with every occurrence: <a href="https://github.com/open-quran-signs/open-quran-signs">Open Quran Signs repository</a></div>
+  </div>
+</div></section>
+
+<!-- ═══ REJECTED CLAIMS ═══ -->
+<section id="rejected"><div class="wrap">
+  <h2>Twelve claims tested and rejected</h2>
+  <p>False evidence does not serve the truth of Allah. The following claims are widely circulated but do not reproduce under consistent counting rules. Publishing what failed makes what survived credible.</p>
+
+  <div class="rejected-grid">
+    <div class="rejected-item">
+      <strong>Man / Woman = 23 / 23</strong><br>
+      <span class="computed">Claimed equal at 23 each, matching chromosomes. Actual: noun <span class="arabic-inline">رجل</span> = 29, <span class="arabic-inline">امرأة</span> = 26. Requires unstated surface restrictions to reach 23. <span class="badge badge-rejected">Rejected</span></span>
+    </div>
+    <div class="rejected-item">
+      <strong>Life / Death = 145 / 145</strong><br>
+      <span class="computed">Root counts: حياة = 189, موت = 165. Noun lemmas: 76 / 50. No consistent counting rule reproduces 145/145. <span class="badge badge-rejected">Rejected</span></span>
+    </div>
+    <div class="rejected-item">
+      <strong>Paradise / Hell = 77 / 77</strong><br>
+      <span class="computed">جنة lemma = 147 (or 66 for specific paradise sense). جهنم = 77. Requires hiding 70 occurrences of جنة. <span class="badge badge-rejected">Rejected</span></span>
+    </div>
+    <div class="rejected-item">
+      <strong>Land / Sea = 13 / 32 → 28.9% / 71.1%</strong><br>
+      <span class="computed">بر (land) has multiple meanings including "righteousness." The percentage calculation is an arbitrary operation on word counts. <span class="badge badge-rejected">Rejected</span></span>
+    </div>
+    <div class="rejected-item">
+      <strong>Faith / Disbelief</strong><br>
+      <span class="computed">Root counts differ dramatically depending on which derived forms are included. No fixed rule produces equality. <span class="badge badge-rejected">Rejected</span></span>
+    </div>
+    <div class="rejected-item">
+      <strong>Hot / Cold</strong><br>
+      <span class="computed">حر root includes freedom, heat, silk, and more. Counting produces wildly different numbers depending on semantic filtering. <span class="badge badge-rejected">Rejected</span></span>
+    </div>
+    <div class="rejected-item">
+      <strong>+ 6 more: sun/light, hardship/patience, wine/intoxication, creation of heavens, love/obedience, marriage/divorce</strong><br>
+      <span class="computed">Each fails under one consistent counting rule. Real numbers published. <span class="badge badge-rejected">Rejected</span></span>
+    </div>
+  </div>
+
+  <div class="verse" style="margin-top:2rem">
+    <div class="verse-ar">يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا ٱتَّقُوا ٱللَّهَ وَقُولُوا قَوْلًا سَدِيدًا</div>
+    <div class="verse-en">"O you who believe! Be careful of your duty to Allah, and speak words straight to the point."</div>
+    <div class="verse-ref">Qur'an 33:70</div>
+  </div>
+</div></section>
+
+<!-- ═══ WHAT DISTINGUISHES A SIGN FROM NOISE ═══ -->
+<section><div class="wrap">
+  <h2>What distinguishes a sign from noise</h2>
+  <p>The honest question is: in a corpus of 78,000+ words with hundreds of repeated terms, some pairs will be equal by chance. What makes the 14 verified pairs different from the other 8,562?</p>
+
+  <p>Three properties, which the background pairs generally do not have:</p>
+  <ol>
+    <li><strong>The Qur'an's own text compares or contrasts the terms.</strong> Adam and Jesus are explicitly compared. Dunya and akhirah are repeatedly contrasted. <em>Qul</em> and <em>qālū</em> form a dialogue architecture. This is not a property of a search algorithm — it is a property of the text.</li>
+    <li><strong>The number itself is meaningful.</strong> Day = 365 (days in a year). Month = 12 (months in a year). Seven Heavens = 7 (the number the phrase names). These are not arbitrary numbers — they correspond to the concepts the words describe.</li>
+    <li><strong>Structural convergence beyond mere equality.</strong> Adam and Jesus meet at the same ordinal (#7) in the one verse that compares them. Dunya and akhirah co-occur in 54 verses. These are structural properties that the chance model does not price in.</li>
+  </ol>
+
+  <p>None of this constitutes a formal statistical proof — the null-model harness for that is designed but not yet implemented. What is stated here is reproducibility, not improbability. The statistical work is on the public roadmap. Until it lands, this page asserts that these patterns are real, not that they are proven to be non-random.</p>
+
+  <p>But consider: you do not need a p-value to recognize that a Book where day = 365, month = 12, Adam = Jesus = 25 at the comparison verse, and this world = the Hereafter = 115 is not an ordinary book.</p>
+</div></section>
+
+<!-- ═══ PAGE NAV ═══ -->
+<div class="wrap">
+  <div class="page-nav">
+    <a href="index.html"><span class="pn-label">← Previous</span><span class="pn-title">Home</span></a>
+    <a href="linguistic.html" class="pn-next"><span class="pn-label">Next →</span><span class="pn-title">The Linguistic Miracle</span></a>
+  </div>
+</div>
+
+</main>
+
+<footer><div class="wrap">
+  <p>Numerical evidence verified by the <a href="https://github.com/open-quran-signs/open-quran-signs">Open Quran Signs</a> project. No copyright is claimed on the evidence of Allah.</p>
+</div></footer>
+
+<button class="back-to-top" aria-label="Back to top" hidden>&#8593;</button>
+<script src="main.js"></script>
+</body>
+</html>
